@@ -4,7 +4,7 @@ setup(
     name="CallSummarizer",
     version="0.1.0",
     author="Dhruv Agarwal",
-    author_email="dhruv610agg@gmil.com",
+    author_email="dhruv610agg@gmail.com",
     packages=find_packages(),
     install_requires=[]
 )
