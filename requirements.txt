@@ -8,4 +8,5 @@ streamlit
 sentence-transformers
 huggingface-hub
 openai-whisper
+pydub
 -e .
