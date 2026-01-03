@@ -1,10 +1,10 @@
-# 📞 AI-Powered Call Summarization using RAG
+# 📞 ConvoxAI — AI-Powered Call Summarization using RAG
 
 ## 📌 Overview
 
-This repository contains an **end-to-end AI-based Call Summarization system** built using a **Retrieval-Augmented Generation (RAG)** pipeline. The system converts recorded customer calls into structured, accurate, and actionable summaries by combining **speech-to-text**, **vector-based retrieval**, **large language models**, and **sentiment analysis**.
+**ConvoxAI** is an end-to-end **AI-based Call Summarization system** built using a **Retrieval-Augmented Generation (RAG)** pipeline. The system converts recorded customer calls into structured, accurate, and actionable summaries by combining **speech-to-text**, **vector-based retrieval**, **large language models**, and **sentiment analysis**.
 
-The project is designed for real-world applications such as **customer support analytics, CRM automation, quality assurance, and executive reporting**.
+ConvoxAI is designed for real-world applications such as **customer support analytics, CRM automation, quality assurance, and executive reporting**.
 
 ---
 
@@ -24,56 +24,57 @@ The project is designed for real-world applications such as **customer support a
 ## 🏗️ System Architecture
 
 ┌──────────────────────────────┐
-│        Audio Input            │
-│        (.wav / .mp3)          │
+│ Audio Input │
+│ (.wav / .mp3) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│     Speech-to-Text            │
-│        (Whisper)              │
+│ Speech-to-Text │
+│ (Whisper) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│     Call Transcript           │
+│ Call Transcript │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│    Transcript Chunking        │
+│ Transcript Chunking │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│  Embedding Generation         │
-│   (HuggingFace Models)        │
+│ Embedding Generation │
+│ (HuggingFace Models) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│  Vector Database Storage      │
-│        (Pinecone)             │
+│ Vector Database Storage │
+│ (Pinecone) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│   Context Retrieval           │
-│        (RAG)                  │
+│ Context Retrieval │
+│ (RAG) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│   LLM Processing              │
-│   (Gemini / Groq)             │
+│ LLM Processing │
+│ (Gemini / Groq) │
 └───────────────┬──────────────┘
-                │
-                ▼
+│
+▼
 ┌──────────────────────────────┐
-│  Structured Call Summary      │
-│  + Sentiment Analysis         │
-│  + Actionable Insights        │
+│ Structured Call Summary │
+│ + Sentiment Analysis │
+│ + Actionable Insights │
 └──────────────────────────────┘
+
 
 ---
 
@@ -132,7 +133,7 @@ The generated output includes:
 
 ## 😊 Sentiment Analysis
 
-The system performs **context-aware sentiment analysis** based on:
+ConvoxAI performs **context-aware sentiment analysis** based on:
 - Language tone and word choice  
 - Expressions of satisfaction, frustration, or concern  
 - Repeated complaints or positive affirmations  
@@ -161,6 +162,6 @@ To ensure reliability and trustworthiness:
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/call-summarization-rag.git
-cd call-summarization-rag
+git clone https://github.com/your-username/ConvoxAI.git
+cd ConvoxAI
 pip install -r requirements.txt
