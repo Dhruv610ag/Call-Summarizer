@@ -34,5 +34,5 @@ def transcribe_audio_simple(audio_file_path,model_size="medium"):
     print("Transcripting the audio_file to the simple text format ...")
     result=model.transcribe(audio_file_path)    
     return result["text"]
-print(transcribe_audio_simple(r"C:\Users\DHRUV AGARWAL\Desktop\Call-Summarizer\testing_audios\sample_testing.wav"))
+print(transcribe_audio_simple(r"C:\Users\Ayush Sharma\OneDrive\Desktop\Call-Summarizer\testing_audios\sample_testing.wav"))
     
