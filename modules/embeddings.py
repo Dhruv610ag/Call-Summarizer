@@ -1,6 +1,6 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 
-def download_embeddings():
+def load_embeddings():
     """
     Download and return the HuggingFace embeddings Model
     """

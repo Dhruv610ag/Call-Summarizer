@@ -5,6 +5,7 @@ langchain-groq
 langchain-pinecone
 python-dotenv
 streamlit
+langchain_google_genai
 sentence-transformers
 huggingface-hub
 openai-whisper

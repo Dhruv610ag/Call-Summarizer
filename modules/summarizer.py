@@ -1,11 +1,8 @@
 import os
-import warnings
 from dotenv import load_dotenv
-import google.generativeai as genai
-
+from langchain_google_genai import ChatGoogleGenerativeAI
+import warnings
 warnings.filterwarnings("ignore")
-
-# Load environment variables
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("Gemini_API_Key")
